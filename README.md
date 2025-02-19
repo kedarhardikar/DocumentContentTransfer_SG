@@ -3,11 +3,11 @@ The task is to automate the process of content transfer between 2 documents. Giv
 
 ## Document Content Transfer using LLM & PDF Processing
 
-Overview
+### Overview
 
 This project automates the transfer of numerical data from the current year's report into the previous year's report while maintaining the document structure, wording, and formatting. It leverages Python, LangChain, Llama 3.1 (via Groq API), and document processing libraries to ensure seamless data extraction and replacement.
 
-Features
+### Features
 
 PDF Text Extraction: Extracts text from PDFs using PyMuPDF.
 
@@ -19,19 +19,17 @@ Maintains Formatting: Converts PDF to DOCX, processes text, and re-converts back
 
 End-to-End Automation: Handles everything from extraction to final document generation.
 
-Installation
-
-Prerequisites
+### Installation Prerequisites
 
 Ensure you have Python 3.8+ and the following dependencies installed:
 
-pip install pymupdf langchain langchain_groq dotenv pdf2docx python-docx docx2pdf
+pip install requirements.txt
 
 Set up your Groq API Key in a .env file:
 
 GROQ_API_KEY=your_api_key_here
 
-Usage
+### Usage
 
 1. Extract Text from PDFs
 
